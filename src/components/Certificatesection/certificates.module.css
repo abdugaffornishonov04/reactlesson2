@@ -1,0 +1,51 @@
+.certificate-section {
+  padding-top: 104px;
+  display: flex;
+  background-color: #fff;
+}
+
+.certificate-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.certificates-heading {
+  margin-bottom: 32px;
+  color: #2C2D2E;
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: "Montserrat";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.certificates-heading span{
+  color:#EF7C00
+}
+
+.slick-slider {
+  width: initial;
+  padding-bottom: initial;
+
+  @media (max-width:1000px) {
+    display: block;
+  }
+}
+
+.slick-dots {
+  left: initial;
+  width: initial;
+}
+
+
+
+.custom-dots{
+  display: flex;
+  justify-content: center;
+}
+
+.slick-arrow .slick-prev::before{
+  background-color: red !important;
+}
